@@ -1,0 +1,25 @@
+//COLORS
+$color-white:#fff;
+$color-black:#000;
+$color-grey-light : #f0f0f0;
+$color-grey : #888;
+$color-grey-dark: #777;
+$color-primary-dark: #1976D2;
+$color-primary:#2196F3;
+$color-primary-light:rgb(92, 173, 240);
+$color-secondary-dark:#388E3C;
+$color-secondary:#4CAF50;
+$color-secondary-light:rgb(121, 223, 125);
+$color-accent:rgb(252, 184, 207);
+$color-heading-font: #4c4c4c;
+
+//Linear gradient
+$color-linear-primary: linear-gradient(to right,$color-primary-dark,$color-secondary-light);
+
+//FONTS
+$font-lato: 'Lato', sans-serif;
+
+//margins
+
+//heights
+$footer-height: 55rem;

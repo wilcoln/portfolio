@@ -1,0 +1,98 @@
+main{
+     margin-bottom: $footer-height;
+     section{
+     padding-top: 7rem;
+     padding-bottom: 7rem;
+     &:not(#my-resume){
+          border-bottom: 2px solid $color-secondary-light;
+     }
+    
+    }
+    //About me 
+    #about-me{
+        background-color: $color-grey-light;
+        img{
+            transition: all .4s;
+            border-radius: 100%;
+            box-shadow: 0rem 2rem 4rem rgba($color-black, 0.2);
+            transform: translateY(-3.5rem);
+            &:hover{
+                transform: translateY(-3.5rem) scale(1.2);
+            }
+        }
+        .about-me__text{
+            font-style: italic;
+            font-size: 3rem;
+            text-shadow: .5rem .5rem 2rem rgba($color-black, 0.2);
+        }
+        blockquote > footer{
+                font-size: 1.8rem;         
+        }
+        button{
+            height: 3rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            border-width: 0px 2px 0px 0px;
+        }
+        #more-about-me{
+            p{
+                font-size: 1.2rem;
+            }
+            
+            color: $color-grey;
+        }
+    }
+
+    //My Skills
+    #my-skills{
+        background-color: rgba($color-black,0.8);
+        min-height: 100vh;
+        .progress{
+            height: 2.1rem;
+            margin-top: 1rem;
+            margin-bottom: 2.5rem;
+        }
+        .my-skills-progress{
+            padding-top:2rem;
+            background-color: rgba($color-primary-light,0.1);
+            .progress-bar{
+                font-size: 1.6rem;
+            }
+        }
+        button{
+            height: 4rem;
+            font-size: 1.8rem;
+            font-weight: 400;
+            
+        }
+    }
+
+    // Resume
+    #my-resume {
+        min-height: 125vh;
+        //tmp
+            height: 70rem;
+        background-color: $color-grey-light;
+        clip-path: polygon(0% 0%, 100% 0%,100% 90%, 70% 90%, 50% 100%,30% 90% , 0% 90%);
+    }
+    .section-separator{
+        margin-top: -25rem;
+        padding-top: 25rem;
+        background-color: rgba($color-grey-light,.8);
+    }
+
+    //Portfolio
+    #my-portfolio {
+        min-height: 100vh;
+        //tmp
+            height: 70rem;
+        background-color: rgba($color-grey-light,.8);
+    }
+    .tmp{
+        font-size: 8rem;
+        color: rgba($color-grey-dark, .4);
+        font-style: italic;
+        padding-top: 24rem;
+
+    }
+}

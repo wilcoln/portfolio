@@ -1,0 +1,41 @@
+main + div footer{
+    min-height: $footer-height;
+    background-color: rgba($color-black, .9);
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    color: $color-primary-light;
+    z-index: -1;
+    //tmp
+        font-size: 1.5rem;
+        text-align: center;
+
+// Form styling
+    .form{
+        text-align: right;
+    }
+    .form-group{
+        text-align: left;
+    }
+    input, textarea{
+        &.form-control{
+            font-size: 1.5rem;
+            background-color: rgba($color-white, .2);
+            border-width: 0px;
+            border-radius: 0px;
+            color: $color-grey-light;
+            &:focus{
+                background-color: rgba($color-primary-light, .2);
+                color: $color-white;
+            }
+        }
+        
+    }
+// Copyright
+    .copyright{
+        font-size: 1.4rem;
+    }
+        
+}

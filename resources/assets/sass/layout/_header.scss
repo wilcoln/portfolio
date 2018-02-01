@@ -1,0 +1,59 @@
+.header{
+    min-height: 100vh;
+    background:linear-gradient(to right bottom, rgba($color-primary-light,.5), rgba($color-secondary-light,.4)),
+                url('../img/design-chris.jpg');
+    background-size:cover;
+    background-position:center;
+    background-blend-mode: color;
+    overflow: hidden;
+    padding-top: 8rem;
+    border-bottom: 2px solid $color-secondary-light;
+    .container{
+        margin-top: 8rem;
+        .avail-info{
+            animation: fadeIn 4s 2s;
+            animation-fill-mode: backwards;
+            .icon{
+                color:$color-secondary-light;
+             }
+            strong{
+                text-transform: uppercase;
+                font-size: 1.7rem;
+                color:$color-secondary-light;
+            }
+        }
+        .description{
+            font-size: 5.5rem;
+            color:$color-white;
+            font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            animation: moveInLeft 2s ease-out;
+        }
+        hr{
+            background-color: white;
+        }
+        
+        button{
+            height: 4.5rem;
+            animation: moveToTop 2s ease-in-out 3s;
+            animation-fill-mode: backwards;
+            box-shadow: 0 3rem 6rem rgba($color-black, .5);
+            font-weight: 700;
+            &:hover{
+                transform: translateY(-.2rem);
+                box-shadow: 0 .5rem 1rem rgba($color-primary-dark, 0.5);
+            }
+            &:active{
+                transform: translateY(.1rem);
+            }  
+        }
+        .skills{
+            font-size: 1.5rem;
+            color:$color-primary-light;
+            outline-offset: 1rem;
+            outline: 2px solid $color-primary-light;
+        }
+    }
+    
+
+}
