@@ -21,9 +21,9 @@
                     <div class="col">
                         <strong class="skills">
                             Full Stack Web Developer
-                            <span class="text-light">&nbsp; - &nbsp;</span> Mobile apps Developer
-                            <span class="text-light">&nbsp; - &nbsp;</span> UI & UX Designer
-                            <span class="text-light">&nbsp; - &nbsp;</span> Logo Designer
+                            <span class="skill-hyphen">&nbsp; - &nbsp;</span> Mobile apps Developer
+                            <span class="skill-hyphen">&nbsp; - &nbsp;</span> UI & UX Designer
+                            <span class="skill-hyphen">&nbsp; - &nbsp;</span> Logo Designer
                         </strong>
 
                     </div>

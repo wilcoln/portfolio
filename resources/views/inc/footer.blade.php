@@ -1,4 +1,5 @@
-<footer class="footer">
+<div id="contact-me">
+    <footer class="footer">
             <div class="container pt-5">
                 <div class="row">
                     <div class="col-md-6 ml-auto">
@@ -42,4 +43,5 @@
                     </div>
                 </div>
             </div>
-        </footer>
+    </footer>
+</div>

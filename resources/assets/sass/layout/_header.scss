@@ -1,7 +1,7 @@
 .header{
     min-height: 100vh;
     background:linear-gradient(to right bottom, rgba($color-primary-light,.5), rgba($color-secondary-light,.4)),
-                url('../img/design-chris.jpg');
+                url('../images/design-chris.jpg');
     background-size:cover;
     background-position:center;
     background-blend-mode: color;
@@ -13,13 +13,11 @@
         .avail-info{
             animation: fadeIn 4s 2s;
             animation-fill-mode: backwards;
-            .icon{
-                color:$color-secondary-light;
-             }
+            text-shadow: .5rem 1rem 1rem rgba($color-black, .5);
+            color:$color-accent;
             strong{
                 text-transform: uppercase;
                 font-size: 1.7rem;
-                color:$color-secondary-light;
             }
         }
         .description{
@@ -29,8 +27,11 @@
             font-weight: 700;
             animation: moveInLeft 2s ease-out;
         }
+        .skill-hyphen{
+            color:$color-secondary;
+        }
         hr{
-            background-color: white;
+            background-color: $color-white;
         }
         
         button{
@@ -49,9 +50,9 @@
         }
         .skills{
             font-size: 1.5rem;
-            color:$color-primary-light;
+            color:$color-white;
             outline-offset: 1rem;
-            outline: 2px solid $color-primary-light;
+            outline: 2px solid $color-secondary;
         }
     }
     

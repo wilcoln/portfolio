@@ -18,7 +18,7 @@
                 color:$color-grey-light;
                 transition: all .4s;
                 &:hover,&:active,&.active{
-                color:$color-primary-light !important;
+                color:$color-secondary-light !important;
                 text-shadow: 0 .1rem 1rem rgba($color-grey,.1);
                 }
             }

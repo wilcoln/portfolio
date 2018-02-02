@@ -10181,8 +10181,8 @@ p {
 
 .header {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(92, 173, 240, 0.5)), to(rgba(121, 223, 125, 0.4))), url(/images/design-chris.jpg?fdf9082f866a7890eda778626e0375f5);
-  background: linear-gradient(to right bottom, rgba(92, 173, 240, 0.5), rgba(121, 223, 125, 0.4)), url(/images/design-chris.jpg?fdf9082f866a7890eda778626e0375f5);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(92, 173, 240, 0.5)), to(rgba(121, 223, 125, 0.4))), url(/images/design-chris.jpg?0feb233cd28f1264c88720ccc55abb19);
+  background: linear-gradient(to right bottom, rgba(92, 173, 240, 0.5), rgba(121, 223, 125, 0.4)), url(/images/design-chris.jpg?0feb233cd28f1264c88720ccc55abb19);
   background-size: cover;
   background-position: center;
   background-blend-mode: color;
@@ -10200,16 +10200,13 @@ p {
           animation: fadeIn 4s 2s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
-}
-
-.header .container .avail-info .icon {
-  color: #79df7d;
+  text-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.5);
+  color: #fcb046;
 }
 
 .header .container .avail-info strong {
   text-transform: uppercase;
   font-size: 1.7rem;
-  color: #79df7d;
 }
 
 .header .container .description {
@@ -10221,8 +10218,12 @@ p {
           animation: moveInLeft 2s ease-out;
 }
 
+.header .container .skill-hyphen {
+  color: #4CAF50;
+}
+
 .header .container hr {
-  background-color: white;
+  background-color: #fff;
 }
 
 .header .container button {
@@ -10250,9 +10251,9 @@ p {
 
 .header .container .skills {
   font-size: 1.5rem;
-  color: #5cadf0;
+  color: #fff;
   outline-offset: 1rem;
-  outline: 2px solid #5cadf0;
+  outline: 2px solid #4CAF50;
 }
 
 .navbar {
@@ -10283,7 +10284,7 @@ p {
 .navbar .navbar-nav .nav-item .nav-link:hover,
 .navbar .navbar-nav .nav-item .nav-link:active,
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #5cadf0 !important;
+  color: #79df7d !important;
   text-shadow: 0 0.1rem 1rem rgba(136, 136, 136, 0.1);
 }
 

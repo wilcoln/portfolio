@@ -10,19 +10,19 @@
             </button>
             <div id="navbar-nav" class="collapse navbar-collapse">
                 <ul class="ml-auto navbar-nav text-uppercase">
-                    <li class="nav-item">
+                    <li class="nav-item ml-4">
                         <a href="#about-me" class="nav-link">About Me</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml-4">
                         <a href="#my-skills" class="nav-link">Skills</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml-4">
                         <a href="#my-resume" class="nav-link">Resume</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml-4">
                         <a href="#my-portfolio" class="nav-link">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml-4">
                         <a href="#contact-me" class="nav-link">Contact Me</a>
                     </li>
                 </ul>
