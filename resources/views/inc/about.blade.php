@@ -8,16 +8,17 @@
                 </div>
                 <div class="row mt-5 align-items-center">
                     <div class="col-lg-4">
-                        <img class="img-fluid" src="images/me.jpg" alt="Wilfried Bounsi">
+                        <img class="img-fluid" src="images/me_nb.jpeg" alt="Wilfried L. Bounsi">
                     </div>
                     <div class="col-lg-7 ml-auto">
                         <div class="row">
                             <div class="col">
                                 <blockquote class="blockquote mb-5">
                                     <p class="blockquote about-me__text text-justify">
-                                        "I am a computer software engineering student, serious, passionate and challenge lover !"
+                                        "I am a Computer science student, serious, passionate and challenge lover !"
                                     </p>
-                                    <footer class="blockquote-footer text-right"> Wilfried Bounsi</cite>
+                                    <footer class="blockquote-footer text-right"> Wilfried L.
+                                        Bounsi</cite>
                                     </footer>
                                 </blockquote>
                                 <div class="row mt-4">
@@ -34,32 +35,19 @@
                                                </div>
                                                <div class="col-10">
                                                     <p class="text-justify">
-                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nobis dolorem vero earum ex, quae saepe totam ducimus, tempore,
-                                                        dolores adipisci? Quibusdam iste maiores, magnam tenetur beatae ex aperiam culpa.
+                                                        My goal is to bring a world wide significant contribution to Computer science, and particularly boosting the technological development in Africa.
+
                                                     </p>
                                                </div>
                                            </div>
-                                             <hr>
-                                            <div class="row align-items-center">
-                                                <div class="col-2 text-center">
-                                                    <i class="display-4 icon icon-basic-world"></i>&nbsp;&nbsp;
-                                                </div>
-                                                <div class="col-10">
-                                                    <p class="text-justify">
-                                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nobis dolorem vero earum ex, quae saepe totam ducimus, tempore,
-                                                        dolores adipisci? Quibusdam iste maiores, magnam tenetur beatae ex aperiam culpa.
-                                                    </p>
-                                                </div>
-                                            </div>
                                             <hr>
                                             <div class="row align-items-center">
                                                 <div class="col-2 text-center">
-                                                    <i class="display-4 icon icon-basic-display"></i>&nbsp;&nbsp;
+                                                    <i class="display-4 icon icon-basic-pin2"></i>&nbsp;&nbsp;
                                                 </div>
                                                 <div class="col-10">
                                                     <p class="text-justify">
-                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nobis dolorem vero earum ex, quae saepe totam ducimus, tempore,
-                                                        dolores adipisci? Quibusdam iste maiores, magnam tenetur beatae ex aperiam culpa.
+                                                        I am mostly interested in the field of artificial intelligence and data sciences in which I want to build my career.
                                                     </p>
                                                 </div>
                                             </div>
@@ -70,8 +58,7 @@
                                                 </div>
                                                 <div class="col-10">
                                                     <p class="text-justify">
-                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nobis dolorem vero earum ex, quae saepe totam ducimus, tempore,
-                                                        dolores adipisci? Quibusdam iste maiores, magnam tenetur beatae ex aperiam culpa.
+                                                        Some of my hobbies are mangas, music, football and of course learning new things, no matter what, as long as it's interesting I'm in!
                                                     </p>
                                                 </div>
                                             </div>

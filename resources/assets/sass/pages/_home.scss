@@ -35,8 +35,10 @@ main{
             border-width: 0px 2px 0px 0px;
         }
         #more-about-me{
+
+
             p{
-                font-size: 1.2rem;
+                font-size: 1.3rem;
             }
             
             color: $color-grey;
@@ -52,7 +54,11 @@ main{
             margin-top: 1rem;
             margin-bottom: 2.5rem;
         }
+        .my-skills-verbose{
+            visibility: hidden;
+        }
         .my-skills-progress{
+            visibility : hidden;
             padding-top:2rem;
             background-color: rgba($color-primary-light,0.1);
             .progress-bar{

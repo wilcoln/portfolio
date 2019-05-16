@@ -6,6 +6,7 @@ main + div footer{
     bottom: 0px;
     left:0px;
     right: 0px;
+    animation: footerTrans 1s 0s;
     color: $color-primary-light;
     z-index: -1;
     //tmp
@@ -36,5 +37,21 @@ main + div footer{
     .copyright{
         font-size: 1.4rem;
     }
-        
+// Media links   
+    .media-link{
+        transition: all .4s;
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 2.25rem;
+        margin: .5rem;
+        padding-top: 1rem;
+        border-radius: 100%;
+        background-color: $color-grey-light;
+        &:hover{
+            transform: rotate(-360deg);
+        }
+    }
+    .my-skills-progress, .my-skills-verbose{
+        visibility: hidden;
+    }
 }

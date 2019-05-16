@@ -2,7 +2,7 @@
         <div class="container">
             <a href="" class="navbar-brand">
                 <div class="logo">
-                    Wilfried Bounsi
+                    Wilfried L. Bounsi
                 </div>
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-nav">

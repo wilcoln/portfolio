@@ -47088,7 +47088,7 @@ if (false) {
 /* 43 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: /var/www/html/wilcoln/node_modules/mozjpeg/vendor/cjpeg: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory\n\n    at Promise.all.then.arr (/var/www/html/wilcoln/node_modules/execa/index.js:231:11)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\n    at runLoaders (/var/www/html/wilcoln/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /var/www/html/wilcoln/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /var/www/html/wilcoln/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/var/www/html/wilcoln/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /var/www/html/wilcoln/node_modules/img-loader/index.js:45:31\n    at <anonymous>");
 
 /***/ })
 /******/ ]);

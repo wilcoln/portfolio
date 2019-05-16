@@ -2,6 +2,26 @@
     <footer class="footer">
             <div class="container pt-5">
                 <div class="row">
+                <div class="col-md-6 text-center">
+                    <h1 class="mb-5 d-block">Follow me</h1> <br/>
+                    <div class="media-links">
+                      <ul class="list-unstyled d-inline">
+                            <li class="media-link media-link__twitter d-inline-block"><a href="https://twitter.com/wilcolnB"> <i class="fa fa-twitter"> </i></a></li>
+                            <li class="media-link media-link__facebook d-inline-block"><a href="https://web.facebook.com/wilcolnB"> <i class="fa fa-facebook"> </i></a></li>
+                            <li class=" media-link media-link__linkedin d-inline-block"><a href="https://www.linkedin.com/in/wilcoln"> <i class="fa fa-linkedin"> </i></a></li>
+                          <li class="media-link media-link__github d-inline-block"><a href="https://www.github.com/wilcoln"> <i class="fa fa-github"> </i></a></li>
+                      </ul>
+                      <address class="row mt-5">
+                        <p class="m-auto text-center">
+                       <i class="fa fa-envelope"></i> &nbsp; contact@wilcoln.com<br><br>
+                        <i class="fa fa-phone"></i> &nbsp;  (+33) 698 69 55 80<br><br>
+                        <i class="fa fa-map-marker"></i> &nbsp;  France, Dijon
+                            <br><br>
+                        </p>
+                        
+                      </address>
+                    </div>
+                  </div>
                     <div class="col-md-6 ml-auto">
                         <div class="row text-center">
                             <div class="col">
@@ -9,7 +29,7 @@
                             </div>
                         </div>
                         <form id="contact-form" class="form" action="/submit" method="post">
-                             {{ csrf_field() }}
+                            {{ csrf_field() }}
                             <div class="form-group">
                                 <label for="name">Name
                                     <span class="text-danger">*</span>
@@ -35,11 +55,10 @@
                 <div class="row copyright text-muted">
                     <div class="col-12 text-center">
                         Made with
-                        <i class="text-danger">&hearts;</i> and
-                        <i class="text-success">&curarr;</i>
+                        <i class="text-danger">&hearts;</i>
                     </div>
                     <div class="col-12 text-center">
-                        &copy; Copyright 2018 Wilfried Lincoln Bounsi Djatcheu &rarr; wilcoln
+                        &copy; Copyright 2019 wilcoln
                     </div>
                 </div>
             </div>
